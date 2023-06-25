@@ -2,10 +2,10 @@
 
 Pastikan Sudah Menginstall Node Package Manager (npm)
 
-```git clone https://github.com/fawazbayureksa/test-dot/```
+`git clone https://github.com/fawazbayureksa/test-dot/`
 
-```git pull origin master```
+`git pull origin master`
 
-```npm install```
+`npm install`
 
-```npm start```
+`npm start`
