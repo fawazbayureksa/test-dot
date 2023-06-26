@@ -52,11 +52,9 @@ const Home = () => {
     }
 
 
-
     const handleCek = () => {
         axiosInstance.get(`cost?origin=${origin}&destination=${destination}&weight=${weight}&courier=${kurir}`).then((response) => {
             setResult(response.data.rajaongkir.results);
-            console.log(response.data.rajaongkir.results);
             setModal(true);
         }).catch((error) => {
             console.log('error', error);
